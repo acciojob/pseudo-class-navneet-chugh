@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.container {
+  /* Apply styles to the first line (first two words) */
+  display: inline-block;
+}
+
+.container::before {
+  /* Style the first line differently (before element) */
+  font-weight: bold;
+  content: "Before Element";
+  color: red;
+	font-size:30px;
+}
+
+.container::after {
+  /* Add content for the last two words (after element) */
+  content: " After Element";
+  font-weight: bold;
+  color: red;
+  font-size:30px;
+}
