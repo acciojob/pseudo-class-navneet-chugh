@@ -14,7 +14,7 @@
 
 .container::after {
   /* Add content for the last two words (after element) */
-  content: " After Element";
+  content: "After Element";
   font-weight: bold;
   color: red;
   font-size:30px;
